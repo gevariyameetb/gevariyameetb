@@ -1,0 +1,15 @@
+"""Three numbers, a, b and c, are called a Pythagorean triple if a 2 + b 2 = c 2 . An example
+is the triple 3, 4 and 5, since 9 + 16 = 25. Pythagorean triples can represent, for
+example, the length of sides in a right triangle. Write a series of Python statements
+that will read three numbers into variables named a, b and c and then print a message
+saying whether or not they are a Pythagorean triple."""
+
+n1=int(input("Enter your 1st number:\n"))
+n2=int(input("Enter your 2nd number:\n"))
+n3=int(input("Enter your 3rd number:\n"))
+
+
+if((n3^2)==((n1^2)+(n2^2))) :
+    print("given all three number are triplet ")
+else:
+    print("not triplet")
